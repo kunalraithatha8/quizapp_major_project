@@ -1,0 +1,47 @@
+name: quizapp_major_project
+description: A new Flutter project.
+
+version: 1.0.2+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.4.0
+  http: ^0.12.0+2
+  flutter_custom_clippers: ^0.1.6
+  html_unescape: ^1.0.1+2
+  auto_size_text: ^2.0.0+2
+  provider: ^4.0.4
+  fluttertoast: ^8.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/quizlogo.png
+    - assets/startquiz.png
+    - assets/sig.png
+    - assets/regis.png
+  font:
+    - family: Montserrat
+      fonts:
+        - asset: assets/font/Montserrat/Montserrat-Regular.ttf
+        - asset: assets/font/Montserrat/Montserrat-Italic.ttf
+          style: italic
+        - asset: assets/font/Montserrat/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/font/Montserrat/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Montserrat/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/font/Montserrat/Montserrat-Light.ttf
+          weight: 300
